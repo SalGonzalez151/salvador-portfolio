@@ -28,3 +28,51 @@ section {
     flex-wrap:wrap;
     justify-content:space-around;
 }
+
+section h2 {
+    border-right: 5px solid black;
+    margin-left: 100px;
+    text-align: right;
+}
+
+.work_box div {
+    background-size: cover;
+}
+
+section div {
+    flex-basis: 50%;
+    height: 200px;
+    margin-bottom: 2%;
+}
+
+.work_box a {
+    display:flex;
+    flex-basis: 45%;
+    height: 200px;
+    background-size: cover;
+}
+
+#horiseon {
+    background-image:url(../images/digital-marketing-meeting.jpg);
+    height: 400px;
+    width: 500px;
+}
+
+#second-card {
+    background-image:url(../images/LED-Wall-Benefits.png);
+}
+
+.test_1 {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+    flex-basis: 45%;
+    background-image: url(../images/LED-Wall-Benefits.png);
+    border: 5px solid lightblue;
+}
+
+.contact ul li {
+    display:flex;
+    display:inline;
+    margin: 5%;
+}

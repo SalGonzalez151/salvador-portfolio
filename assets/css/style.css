@@ -1,0 +1,30 @@
+* {
+    outline: red solid 2px;
+}
+
+/* styles the header */
+header {
+    display:flex;
+    justify-content:space-around;
+    background-color: gray;
+}
+
+header h1 {
+    background-color: lightblue;
+}
+
+.hero {
+    background-image: url(../images/top_header.jpg);
+    height:200px;
+    background-size: cover;
+}
+
+nav ul li {
+    display:inline;
+}
+
+section {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}

@@ -14,10 +14,6 @@ header h1 {
     background-color: lightblue;
 }
 
-.hero, .project {
-    display:flex;
-}
-
 /* puts image on the hero class */
 .hero {
     background-image: url(../images/top_header.jpg);
@@ -34,16 +30,17 @@ nav a {
 
 section h2 {
     border-right: 5px solid black;
-    margin-left: 100px;
     text-align: right;
-    padding-right: 10px;
+    padding-right: 20px;
+    margin: 10px 50px 10px 100px
 }
 
 .contact ul li {
     display:flex;
     display:inline;
-    margin: 5%;
+    margin: 1%;
 }
+
 
 section div {
     display:flex;
@@ -54,13 +51,19 @@ section div {
 }
 
 section div a {
-    display:block;
+    display: block;
     background-position:center;
     background-size: cover;
     background-repeat:no-repeat;
     min-height: 200px;
     width: 100%;
+    border: 5px solid lightblue;
 }
+
+.project {
+    padding: 20px;
+}
+
 .test{
     flex-basis:100%;
 }
@@ -68,6 +71,7 @@ section div a {
 .test_1 {
     flex-basis: 45%
 }
+
 section {
     display:flex;
 }

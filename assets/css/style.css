@@ -1,5 +1,5 @@
 * {
-    outline: red solid 2px;
+    outline: red dashed 2px;
 }
 
 /* styles the header */
@@ -7,72 +7,89 @@ header {
     display:flex;
     justify-content:space-around;
     background-color: gray;
+    align-items:center;
 }
 
 header h1 {
     background-color: lightblue;
 }
 
+.hero, .project {
+    display:flex;
+}
+
+/* puts image on the hero class */
 .hero {
     background-image: url(../images/top_header.jpg);
     height:200px;
     background-size: cover;
 }
 
-nav ul li {
-    display:inline;
-}
-
-section {
+nav a {
     display:flex;
-    flex-wrap:wrap;
-    justify-content:space-around;
+    display:inline-block;
+    margin-right: 15px;
+    font-size: 150%;
 }
 
 section h2 {
     border-right: 5px solid black;
     margin-left: 100px;
     text-align: right;
-}
-
-.work_box div {
-    background-size: cover;
-}
-
-section div {
-    flex-basis: 50%;
-    height: 200px;
-    margin-bottom: 2%;
-}
-
-.work_box a {
-    display:flex;
-    flex-basis: 45%;
-    height: 200px;
-    background-size: cover;
-}
-
-#horiseon {
-    background-image:url(../images/digital-marketing-meeting.jpg);
-    height: 400px;
-    width: 500px;
-}
-
-#second-card {
-    background-image:url(../images/LED-Wall-Benefits.png);
-}
-
-.test_1 {
-    height: 200px;
-    width: 200px;
-    margin-bottom: 15px;
-    flex-basis: 45%;
-    background-image: url(../images/LED-Wall-Benefits.png);
-    border: 5px solid lightblue;
+    padding-right: 10px;
 }
 
 .contact ul li {
     display:flex;
     display:inline;
     margin: 5%;
+}
+
+section div {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 200px;
+}
+
+section div a {
+    display:block;
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    min-height: 200px;
+    width: 100%;
+}
+.test{
+    flex-basis:100%;
+}
+
+.test_1 {
+    flex-basis: 45%
+}
+section {
+    display:flex;
+}
+
+#horiseon {
+    background-image: url(../images/digital-marketing-meeting.jpg);
+    min-height: 300px;
+    width: 100%;
+}
+
+#led-wall {
+    background-image: url(../images/LED-Wall-Benefits.png);
+}
+
+#run-buddy {
+    background-image: url(../images/running-image.jpg);
+}
+
+#slots {
+    background-image: url(../images/slot-machine.jpg);
+}
+
+#puzzle {
+    background-image: url(../images/pexels-pixabay-269399.jpg);
 }

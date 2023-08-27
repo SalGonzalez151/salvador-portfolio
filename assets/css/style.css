@@ -18,6 +18,7 @@ header h1 {
     background-size: cover;
 }
 
+/* styles the nav bar */
 nav a {
     display:flex;
     display:inline-block;
@@ -163,6 +164,10 @@ h3 {
     color: black;
 }
 
+.hero img {
+    max-height: 80px;
+}
+
 @media screen and (max-width: 1600px) {
     section {
         display:flex;
@@ -175,7 +180,7 @@ h3 {
     }
 
     section div a {
-        width: 1400px;
+        width: 800px;
     }
     .contact a {
         margin-left:81px;

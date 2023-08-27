@@ -8,6 +8,7 @@ header {
 
 header h1 {
     background-color: lightblue;
+    color: gray;
 }
 
 /* puts image on the hero class */
@@ -22,6 +23,7 @@ nav a {
     display:inline-block;
     margin-right: 15px;
     font-size: 150%;
+    color: lightblue;
 }
 
 section h2 {
@@ -58,6 +60,11 @@ section div a {
     min-height: 200px;
     width: 100%;
     border: 10px solid lightblue;
+    filter: contrast(40%)
+}
+
+main section a:hover {
+    filter:none;
 }
 
 .project {
@@ -156,7 +163,7 @@ h3 {
     color: black;
 }
 
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 1600px) {
     section {
         display:flex;
         flex-direction: column;
@@ -189,5 +196,8 @@ h3 {
     }
     #work a {
         margin-left: 79px;
+    }
+    nav a {
+        font-size: 100%;
     }
 }
